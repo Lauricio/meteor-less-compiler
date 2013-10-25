@@ -20,6 +20,7 @@ Plugin.registerSourceHandler("less", function (compileStep) {
     // we don't have to use Futures and (b) errors thrown by bugs in less
     // actually get caught.
     syncImport: true,
+    sourceMap: true,
     paths: [path.dirname(compileStep._fullInputPath)] // for @import
   };
 
