@@ -1,7 +1,6 @@
 #### Meteor LESS package updated to 1.5.0 with source map support.
 
 
-Setup start in project dir:
 ```
     mkdir packages
     cd packages
